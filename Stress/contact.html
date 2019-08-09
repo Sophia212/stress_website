@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="contact.css">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script&display=swap" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="flogot.png" width=150 height=150>
+  <h1>Wash Away the Stress</h1>
+</div>
+
+<div id="navbar">
+  <a href="home.html">Home</a>
+  <a href="game.html">Games</a>
+  <a href="video.html">Meditation</a>
+  <a href="contact.html">Help</a>
+  <a href="about.html">About Us</a>
+</div>
+
+<center>
+  <h2>Help</h2>
+</center>
+
+<div class="row">
+  <div class="column">
+    <center>
+    <img src="wave.jpg" alt="wave" style="width:300px;height:50px;">
+    <h3>Contact Us!</h3>
+    <p>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSceXd_6qOtoGkVbEuMQbM0yBXFFjkO56EhsX7wdtXLfRSEHWA/viewform?embedded=true" width="640" height="652" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <p>
+    </center>
+  </div>
+  <div class="column">
+    <center>
+    <img src="wave.jpg" alt="wave" style="width:300px;height:50px;">
+    <h3>Hotlines</h3>
+    <p>Suicide Prevention Lifeline: 1-800-273-8255</p>
+    <p>Suicide Hotline: 1-800-784-2433</p>
+    <p>The Samaritans: 877-870-4673</p>
+    <p>Depression and Suicide: 866-488-7386</p>
+    <p>Grief Line:1-800-395-5755</p>
+    <p>Youth Crisis Hotline: 1-800-448-1833</p>
+    <p>Self Abuse Finally Ends: 1-800-366-8288</p>
+    </center>
+  </div>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

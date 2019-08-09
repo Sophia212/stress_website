@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(255,255,224);
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  color:  #addfad;
+  background-image: url("beach.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.header{
+  background-color:  #addfad;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  color: white;
+
+}
+
+#navbar {
+ overflow: hidden;
+ background-color: #afdeee;
+ font-family: 'Amatic SC', cursive;
+ font-size: 30px;
+}
+
+#navbar a {
+ float: left;
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-family: 'Amatic SC', cursive;
+ font-size: 30px;
+}
+
+#navbar a:hover {
+ background-color: #c5edfa;
+ color: black;
+}
+
+
+.sticky {
+ position: fixed;
+ top: 0;
+ width: 100%;
+}
+
+.sticky + .content {
+ padding-top: 60px;
+}
+
+
+
+
+
+
+h2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 34px;
+  color: #addfad;
+  text-shadow: 2px 2px black;
+}

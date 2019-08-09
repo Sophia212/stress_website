@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="home.css">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+</style>
+<body>
+
+<div class="header">
+  <left><img src="flogot.png" width=150 height=150 /></left>
+  <h1>Wash Away the Stress</h1>
+</div>
+
+<div id="navbar">
+  <a href="home.html">Home</a>
+  <a href="game.html">Games</a>
+  <a href="video.html">Meditation</a>
+  <a href="contact.html">Help</a>
+  <a href="about.html">About Us</a>
+</div>
+
+<div class="row">
+  <div class="column left">
+    <br>
+    <center>
+    <img src="wave.jpg" alt="wave" style="width:300px;height:50px;">
+    <h2>Why it is Bad:</h2>
+    <p><ul>
+      <li>Causes headaches, an upset stomach, high blood pressure, chest pains, sexual dysfunction, and problems sleeping</li>
+      <li>Can cause depression, panic attacks, and anxiety</li>
+      <li>Linked to death, heart disease, cancer, and suicide</li>
+    </ul></p>
+    </center>
+  </div>
+  <div class="column middle">
+    <center>
+    <h2>Stress</h2>
+    <p>Stress is the body reaction to any change that requires an adjustment to everyday life. Stress causes the body to enact a fight or flight response. This response is when the body sympathetic nervous system realizes there is a possible threat, so it prepares itself for a situation where it should either fight or run.
+    </p>
+    <p>Positive: When a good change occurs that requires adjustment or any change that causes a person to become more alert, aware, or excited.
+    <br>Negative: When a person faces constant stress without relief nor relaxation.
+    </p>
+    <p>This prolonged, negative stress is called distress. Distress occurs when a person is unable to cope with stress, causing them to lose homeostasis. Unfortunately, distress may cause people to change their behavior, attitude, or physiological control in a manner that may damage them later. When someone faces distress, they should seek help since they are no longer able to cope with their ordinary stress.</p>
+    </center>
+  </div>
+  <div class="column right">
+    <br>
+    <center>
+    <img src="wave.jpg" alt="wave" style="width:300px;height:50px;">
+    <h2>Stress Reducing Tips</h2>
+    <p><ul>
+      <li>Keep a positive attitude</li>
+      <li>Accept that there are events that you cannot control</li>
+      <li>Be assertive instead of aggressive</li>
+      <li>Eat healthy and be active</li>
+      <li>Make time for hobbies and interests</li>
+      <li>Get enough sleep</li>
+      <li>Do not rely on drugs or alcohol to combat stress</li>
+    </ul></p>
+    </center>
+  </div>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="video.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+</style>
+
+<body>
+
+<div class="header">
+  <img src="flogot.png" width=150 height=150>
+  <h1>Wash Away the Stress</h1>
+</div>
+
+<div id="navbar">
+  <a href="home.html">Home</a>
+  <a href="game.html">Games</a>
+  <a href="video.html">Meditation</a>
+  <a href="contact.html">Help</a>
+  <a href="about.html">About Us</a>
+</div>
+
+<!--column-->
+
+<div class="row">
+  <div class="column" style="background-color:#ffff;">
+    <center>
+      <h2>Meditation Vids</h2>
+      <p><iframe width="360" height="215" src="https://www.youtube.com/embed/d4S4twjeWTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+      <p><iframe width="360" height="215" src="https://www.youtube.com/embed/RR1HQqOkPZE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+      <p><iframe width="360" height="215" src="https://www.youtube.com/embed/OS_iqfGjL78" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+    </center>
+  </div>
+  <div class="column" style="background-color:#ffff;">
+    <center>
+      <h2>Music</h2>
+      <p>  <p><iframe width="360" height="215" src="https://www.youtube.com/embed/1ZYbU82GVz4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></p>
+      <p><iframe width="360" height="215" src="https://www.youtube.com/embed/AW7mR8CNOuU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+      <p><iframe width="360" height="215" src="https://www.youtube.com/embed/sq7Hh4HKMRA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></P>
+    </center>
+  </div>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+<!--column-->
+</body>
+</html>

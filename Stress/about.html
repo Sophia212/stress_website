@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="contact.css">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script&display=swap" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="flogot.png" width=150 height=150>
+  <h1>Wash Away the Stress</h1>
+</div>
+
+<div id="navbar">
+  <a href="home.html">Home</a>
+  <a href="game.html">Games</a>
+  <a href="video.html">Meditation</a>
+  <a href="contact.html">Help</a>
+  <a href="about.html">About Us</a>
+</div>
+
+<center>
+  <h2>About Us</h2>
+</center>
+
+<div class="row">
+  <div class="column">
+    <center>
+    <img src="wave.jpg" alt="wave" style="width:300px;height:50px;">
+    <h3>Purpose</h3>
+    <p>Our mission at Wash Away the Stress is to provide a helpful resource for teens and <br> adults that are struggling to cope with stress. It is our goal to give people the <br> opportunity to destress in a fun, yet relaxing manner. Our users are as important<br>to us as Chicken Nuggets are to McDonalds.</p>
+    <br>
+    <br>
+    <br>
+    <img src="wave.jpg" alt="wave" style="width:300px;height:50px;">
+    </center>
+  </div>
+  <div class="column">
+    <center>
+    <img src="wave.jpg" alt="wave" style="width:300px;height:50px;">
+    <h3>Inspiration</h3>
+    <p>Two of our members are rising seniors and we have been faces with immense stress<br>due to college applications being due in the next few month. In our summer, we<br>participated in a Girls Who Code Summer Immersion Program. This<br>class taught us how to code and create websites. As our final project, we realized<br>that stress was a major conflict in al of our lives, so we wanted to create a<br>website that featured stress relief activities and tips.</p>
+    <img src="wave.jpg" alt="wave" style="width:300px;height:50px;">
+    </center>
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="row">
+  <div class="col">
+    <center>
+      <h3>Bianca</h3>
+      <p>Hi, I am Bianca and I am 17 years old. I was born on February 16 and I attend Springfield Highschool in Springfield, Pa. I am the oldest out of my 2 other siblings. Technology has always been a big part of my life. I have always been the techy one in my family, so getting the chance to broaden my knowledge on technology in this program was a really great experience.  I am hoping to pursue my interest in Tech in the future.</p>
+    </center>
+  </div>
+  <div class="col">
+    <center>
+      <h3>Sophia</h3>
+      <p>Hey everyone! My name is Sophia and I am a rising senior at Caesar Rodney High School.It has always been my dream to help others and this website has allowed me to mix that with my love for technology. My love for STEM has only grown through my experiences with Girls Who Code and Technology Student Association. These opportunities have given me the experience I need to fufill my future dreams!</p>
+    </center>
+  </div>
+  <div class="col">
+    <center>
+      <h3>Aniah</h3>
+      <p>Hello, my name is Aniah and I am in the 11th grade at Cab Calloway School of the Arts. Stress is a very big factor sin my life, and I plan on using this website a lot. Technology has always been something I loved, and this program has opened up so many new opportunities in my life. Thank you for checking out our website, I hope you enjoy it!</p>
+    </center>
+  </div>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
